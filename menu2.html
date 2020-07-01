@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+<style type="text/css">
+*{
+		padding:0;
+		margin:0;
+}
+li{
+	list-style-type: none;
+}
+.clear{
+	clear: both;
+}
+#page{
+width: 1300px;
+margin: auto;
+}
+header{
+	width: 1300px;
+	height: 100px;
+	margin-top: 10px;
+}
+nav{
+width:1300px;
+height: 60px;
+border-top :5px solid #bbbbbb;
+border-bottom:5px solid #bbbbbb;
+}
+nav li{
+	display: inline-block;
+	margin: 20px 30px;
+}
+#main-menu > li {
+  float: left;
+  position: relative;
+}
+
+#main-menu > li > a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+
+}
+
+
+#sub-menu {
+  position: absolute;
+  background: #ffffff;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.15s ease-in;
+  	width :1200px;
+	height: 400px;
+}
+
+#sub-menu > li {
+  padding: 16px 28px;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+#sub-menu > li >  a {
+  text-decoration: none;
+}
+
+#main-menu > li:hover #sub-menu {
+
+  opacity: 1;
+  visibility: visible;
+}
+
+#sub-menu > li >  a:hover {
+ text-decoration: underline;
+}
+
+section{
+display:inline-block;
+float: left;
+margin-top:10px;
+padding-bottom:20px;
+}
+aside{
+float: right;
+margin-top:10px;
+}
+aside li{
+text-align:right;
+margin: 10px 0 30px 0;
+}
+#logo{
+float: left;
+margin-top:10px;
+}
+#top{
+float: right;
+margin:30px 20px 0 0;
+}
+footer{
+  width: 1300px;
+  height: 100px;
+  margin:10px 0 10px 0;
+}
+#footer1{
+float: left;
+margin: 10px 0 0 10px;
+}
+#footer2{
+float: right;
+margin: 10px 0 0 180px;
+}
+#list {
+  text-align: center;
+}
+#list li:hover{
+ text-decoration: underline;
+}
+#poster li {
+	float: left;
+	list-style: none;
+	margin-left: 3px;
+	margin-right: 20px;
+	border :1px solid #bbbbbb; background-color: #ffffff; padding: 15px 25px 15px 25px;
+}
+</style>
+</head>
+<body id="page">
+<header>
+<div id="logo">
+  <a href="index.html"><img src="./img/logo.PNG"></a>
+	
+</div>
+<div id="top">
+	로그인 | 회원가입 | <a href="intro.html">마이페이지</a> | 고객센터
+</div>
+</header>
+<div class="class"></div>
+<nav>
+	<ul>
+		<ul id="main-menu">
+    <li><a href="#">감염병</a>
+      <ul id="sub-menu">
+        <li><a href="#" aria-label="subemnu">감염병정보</a></li>
+        <li><a href="#" aria-label="subemnu">해외감염정보</a></li>
+        <li><a href="#" aria-label="subemnu">감염병유행정보</a></li>
+        <li><a href="#" aria-label="subemnu">결핵</a></li>
+        <li><a href="#" aria-label="subemnu">예방접종</a></li>
+        <li><a href="#" aria-label="subemnu">감염병간행물</a></li>
+      </ul>
+    </li>
+    <li><a href="#">건강정보</a>
+      <ul id="sub-menu">
+        <li><a href="#" aria-label="subemnu">손상정보</a></li>
+        <li><a href="#" aria-label="subemnu">국가건강정보포털</a></li>
+        <li><a href="#" aria-label="subemnu">희귀질환정보</a></li>
+		<a href="http://health.cdc.go.kr/health/Main.do"><img src="./img/right.png"></a>
+      </ul>
+    </li>
+  </ul>
+		<li> 정책정보 </li>
+		<li> 연구개발 </li>
+		<li> 알림,자료 </li>
+		<li> 간행물,통계 </li>
+		<li> 민원,정보공개 </li>
+		<li> 기관소개 </li>
+		<li> 사업별홈페이지 </li>
+
+	</ul>
+</nav>
+<div class="clear"></div>
+<aside>
+	<ul>
+		<li> 사용자별맞춤메뉴 </li>
+		<li> 일반인 </li>
+		<li> 연구자 </li>
+		<li> 언론인 </li>
+	</ul>
+</aside>
+<section>
+  <div style="margin-top: 30px">
+<img style="width: 250px; height: 450px;" src="./img/menu2.PNG">
+</div>
+</section>
+<section>
+  <div style="width:880px;border-bottom: 2px solid #000000;padding-bottom:30px;padding: 40px 0 20px 0;">
+  <p style="font-size:1.5em;font-weight:900;">폭염</p>
+</div>
+
+  <ul id = "list">
+<section>
+    <li style="border :1px solid #bbbbbb; background-color: #efefef; padding: 20px 69px 20px 69px;">감시체계신고현황</li>
+  <li style="border :3px solid #bbbbbb; background-color: #ffffff; padding: 20px 69px 20px 69px;">건강수칙홍보자료</li></section>
+<section>
+    <li style="border :1px solid #bbbbbb; background-color: #efefef; padding: 20px 69px 20px 69px;">감시체계상세신고결과</li>
+    <li style="border :1px solid #bbbbbb; background-color: #efefef; padding: 20px 69px 20px 69px;">보도및기타발간자료</li></section>
+ <section>
+    <li style="border :1px solid #bbbbbb; background-color: #efefef; padding: 20px 69px 20px 69px;">온열질환종류및응급조치</li>
+    <li style="border :1px solid #bbbbbb; background-color: #efefef; padding: 20px 69px 20px 69px;">감시체계연보</li></section>
+  </ul>	
+</section>
+   <section>
+<img src="./img/p1.PNG" width="200">
+<img src="./img/p2.PNG" width="200">
+<img src="./img/p3.PNG" width="200">
+<img src="./img/p4.PNG" width="200">
+<div id="poster">
+  <a href="http://www.cdc.go.kr/gallery.es?mid=a20503020000&bid=0003&b_list=9&act=view&list_no=144720&nPage=1&vlist_no_npage=1&keyField=&keyWord=&orderby="><li>포스터 바로가기 ></li></a>
+  <a href="http://www.cdc.go.kr/gallery.es?mid=a20503020000&bid=0003&b_list=9&act=view&list_no=144719&nPage=1&vlist_no_npage=1&keyField=&keyWord=&orderby="><li>리플릿 바로가기 ></li></a>
+  <a href="http://www.cdc.go.kr/gallery.es?mid=a20503010000&bid=0002&b_list=9&act=view&list_no=144712&nPage=1&vlist_no_npage=1&keyField=&keyWord=&orderby="><li style="margin-left: 25px">카드뉴스 ></li></a>
+  <a href="http://www.cdc.go.kr/gallery.es?mid=a20503020000&bid=0003&b_list=9&act=view&list_no=144298&nPage=1&vlist_no_npage=1&keyField=&keyWord=&orderby="><li style="margin-left: 35px">FAQ 바로가기 ></li></a>
+</div>
+</section>
+
+
+<div class="clear"></div>
+<footer>
+  <div id = "footer1">
+    <img src="./img/bottom1.png">
+  </div>
+  <div id="footer2">
+    <img src="./img/bottom2.png">
+  </div>
+</footer>
+</body>
+</html>
