@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+<style type="text/css">
+*{
+		padding:0;
+		margin:0;
+}
+li{
+	list-style-type: none;
+}
+.clear{
+	clear: both;
+}
+#page{
+width: 1300px;
+margin: auto;
+}
+header{
+	width: 1300px;
+	height: 100px;
+	margin-top: 10px;
+}
+nav{
+width:1300px;
+height: 60px;
+border-top :5px solid #bbbbbb;
+border-bottom:5px solid #bbbbbb;
+}
+nav li{
+	display: inline-block;
+	margin: 20px 30px;
+}
+#main-menu > li {
+  float: left;
+  position: relative;
+}
+
+#main-menu > li > a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+
+}
+
+
+#sub-menu {
+  position: absolute;
+  background: #ffffff;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.15s ease-in;
+  	width :1200px;
+	height: 400px;
+}
+
+#sub-menu > li {
+  padding: 16px 28px;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+#sub-menu > li >  a {
+  text-decoration: none;
+}
+
+#main-menu > li:hover #sub-menu {
+
+  opacity: 1;
+  visibility: visible;
+}
+
+#sub-menu > li >  a:hover {
+ text-decoration: underline;
+}
+
+section{
+display:inline-block;
+float: left;
+margin-top:10px;
+padding-bottom:20px;
+}
+aside{
+margin-top:10px;
+}
+aside li{
+text-align:right;
+margin: 10px 0 30px 0;
+}
+#logo{
+float: left;
+margin-top:10px;
+}
+#top{
+float: right;
+margin:30px 20px 0 0;
+}
+footer{
+  width: 1300px;
+  height: 100px;
+  margin:10px 0 10px 0;
+}
+#footer1{
+float: left;
+margin: 10px 0 0 10px;
+}
+#footer2{
+float: right;
+margin: 10px 0 0 180px;
+}
+#list {
+  text-align: center;
+}
+#poster li {
+	float: left;
+	list-style: none;
+	margin-left: 3px;
+	margin-right: 20px;
+	border :1px solid #bbbbbb; background-color: #ffffff; padding: 15px 25px 15px 25px;
+}
+</style>
+</head>
+<body id="page">
+<header>
+<div id="logo">
+  <a href="index.html"><img src="./img/logo.PNG"></a>
+	
+</div>
+<div id="top">
+	로그인 | 회원가입 | <a href="intro.html">마이페이지</a> | 고객센터
+</div>
+</header>
+<div class="class"></div>
+<nav>
+	<ul>
+		<ul id="main-menu">
+    <li><a href="#">감염병</a>
+      <ul id="sub-menu">
+        <li><a href="#" aria-label="subemnu">감염병정보</a></li>
+        <li><a href="#" aria-label="subemnu">해외감염정보</a></li>
+        <li><a href="#" aria-label="subemnu">감염병유행정보</a></li>
+        <li><a href="#" aria-label="subemnu">결핵</a></li>
+        <li><a href="#" aria-label="subemnu">예방접종</a></li>
+        <li><a href="menu.html" aria-label="subemnu">감염병간행물</a></li>
+      </ul>
+    </li>
+    <li><a href="#">건강정보</a>
+      <ul id="sub-menu">
+        <li><a href="#" aria-label="subemnu">손상정보</a></li>
+        <li><a href="#" aria-label="subemnu">국가건강정보포털</a></li>
+        <li><a href="#" aria-label="subemnu">희귀질환정보</a></li>
+		<a href="http://health.cdc.go.kr/health/Main.do"><img src="./img/right.png"></a>
+      </ul>
+    </li>
+  </ul>
+		<li> 정책정보 </li>
+		<li> 연구개발 </li>
+		<li> 알림,자료 </li>
+		<li> 간행물,통계 </li>
+		<li> 민원,정보공개 </li>
+		<li> 기관소개 </li>
+		<li> 사업별홈페이지 </li>
+
+	</ul>
+</nav>
+<div class="clear"></div>
+<aside style="float: right;">
+	<ul>
+		<li> 사용자별맞춤메뉴 </li>
+		<li> 일반인 </li>
+		<li> 연구자 </li>
+		<li> 언론인 </li>
+	</ul>
+</aside>
+<aside>
+<img style="width: 250px; height: 600px; margin-top: 30px; float: left; padding-right: 30px; " src="./img/menu3.PNG">
+</aside>
+<section>
+  <div style="width:800px;border-bottom: 2px solid #000000;padding: 20px 0 20px 0;">
+  <p style="font-size:1.5em;font-weight:900;">홍보지</p>
+</div>
+  <p style="font-size:1.2em;font-weight:900;padding-top: 40px">2020년 기침예절 포스터</p>
+  <div style="font-size: 0.8em; padding-top: 20px">
+  <p> 작성일 2020-03-31 | 최종수정일 2020-05-27 | 작성자 위기소통담당관 | 연락처 043-719-7783 </p>
+</div>
+<div style="width:800px;border-bottom: 1px solid #dfdfdf; padding-top: 25px">
+</div>
+<img style="margin-top:10px; width: 800px; height: 1100px;" src="./img/gichim.PNG">
+</div>
+<div style="border :1px dashed #bbbbbb; background-color: #efefef; padding: 20px 40px 20px 40px; background-color: #ffffff">
+<li style="font-size:1.2em"> ※ 포스터 이용 참고사항 ※</li>
+<br><br>
+<li style="text-decoration: underline;color: BLUE; float: left;"> 우측 상단에 있는 바코드</li>는 문자를 읽는 데 어려움을 겪는 분들을 위해,<br>
+<li style="text-decoration: underline;color: BLUE; float: left;"> 인쇄물을 소리로 읽어주는 '음성지원 바코드(보이스아이코드*)'</li>입니다.<br>
+스마트폰에서 '보이스아이 앱'을 설치하셔서 이용하실 수 있습니다.<br>
+<br>
+<br>
+<li style="float:left;">*보이스아이코드는&nbsp;</li> <li style="text-decoration: underline;color: #af00b1;"> '인쇄 환경(온라인X)'에서만 활용 가능합니다.</li><br>
+온라인 환경에서는 보이스아이코드 이용이 어렵습니다.
+  </div>
+      <img src="./img/juju.png" style="padding-top: 20px;width: 800px">
+</section>
+
+
+<div class="clear"></div>
+<footer>
+  <div id = "footer1">
+    <img src="./img/bottom1.png">
+  </div>
+  <div id="footer2">
+    <img src="./img/bottom2.png">
+  </div>
+</footer>
+</body>
+</html>
